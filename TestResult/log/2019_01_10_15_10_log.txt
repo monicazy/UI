@@ -1,0 +1,24 @@
+2019-01-10 15:10:58,519-INFO-my_log.py-Monica-日志信息:==========所有测试用例之前的，seupclass==用例类前置：初始化浏览器，打开登录页==========
+2019-01-10 15:11:11,540-INFO-my_log.py-Monica-日志信息:登录页面_登录功能等待元素('xpath', '//input[@class="username form-control ng-untouched ng-pristine ng-invalid"]')可见
+2019-01-10 15:11:11,572-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：31249
+2019-01-10 15:11:12,081-INFO-my_log.py-Monica-日志信息:登录页面_登录功能输入元素：('xpath', '//input[@class="username form-control ng-untouched ng-pristine ng-invalid"]')
+2019-01-10 15:11:12,081-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//input[@class="username form-control ng-untouched ng-pristine ng-invalid"]')
+2019-01-10 15:11:12,238-INFO-my_log.py-Monica-日志信息:登录页面_登录功能输入元素：('xpath', '//input[@class="password form-control ng-untouched ng-pristine ng-invalid"]')
+2019-01-10 15:11:12,244-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//input[@class="password form-control ng-untouched ng-pristine ng-invalid"]')
+2019-01-10 15:11:12,308-INFO-my_log.py-Monica-日志信息:登录页面_登录功能点击元素：('xpath', '//footer[@class="page-footer"]')
+2019-01-10 15:11:12,313-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//footer[@class="page-footer"]')
+2019-01-10 15:11:12,380-INFO-my_log.py-Monica-日志信息:登录页面_登录功能点击元素：('xpath', '//button[@class="btn btn-auth btn-block"]')
+2019-01-10 15:11:12,385-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//button[@class="btn btn-auth btn-block"]')
+2019-01-10 15:11:12,469-INFO-my_log.py-Monica-日志信息:——————————当前执行的用例是：livemap页面_搜索功能_成功在搜索框搜索——————————
+2019-01-10 15:11:12,473-INFO-my_log.py-Monica-日志信息:LiveMap页面_搜索车辆功能_输入框搜索等待元素('xpath', '//input[@class="ng-untouched ng-pristine ng-valid"]')可见
+2019-01-10 15:11:15,671-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：192626
+2019-01-10 15:11:16,175-INFO-my_log.py-Monica-日志信息:LiveMap页面_搜索车辆功能_输入框搜索输入元素：('xpath', '//input[@class="ng-untouched ng-pristine ng-valid"]')
+2019-01-10 15:11:16,185-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//input[@class="ng-untouched ng-pristine ng-valid"]')
+2019-01-10 15:11:16,471-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_获取查询结果列表等待元素('xpath', '//div[@class="alias text-overflow font-weight-bold"]')可见
+2019-01-10 15:11:16,508-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：31979
+2019-01-10 15:11:17,014-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_获取查询结果列表查找元素：('xpath', '//div[@class="alias text-overflow font-weight-bold"]')
+2019-01-10 15:11:17,079-INFO-my_log.py-Monica-日志信息:LiveMap页面_搜索车辆功能_清空搜索框内容等待元素('xpath', '//input[@class="ng-valid ng-dirty ng-touched"]')可见
+2019-01-10 15:11:30,093-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：8704
+2019-01-10 15:11:30,593-INFO-my_log.py-Monica-日志信息:清空输入框内的数据
+2019-01-10 15:11:30,602-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//input[@class="ng-valid ng-dirty ng-touched"]')
+2019-01-10 15:11:30,648-INFO-my_log.py-Monica-日志信息:==========所有测试用例之后的，teardwonclass==用例类后置：关闭浏览器==========

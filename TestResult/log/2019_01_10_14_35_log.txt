@@ -1,0 +1,46 @@
+2019-01-10 14:35:38,348-INFO-my_log.py-Monica-日志信息:==========所有测试用例之前的，seupclass==用例类前置：初始化浏览器，打开登录页==========
+2019-01-10 14:36:11,550-INFO-my_log.py-Monica-日志信息:登录页面_登录功能等待元素('xpath', '//input[@class="username form-control ng-untouched ng-pristine ng-invalid"]')可见
+2019-01-10 14:36:11,608-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：51929
+2019-01-10 14:36:12,110-INFO-my_log.py-Monica-日志信息:登录页面_登录功能输入元素：('xpath', '//input[@class="username form-control ng-untouched ng-pristine ng-invalid"]')
+2019-01-10 14:36:12,110-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//input[@class="username form-control ng-untouched ng-pristine ng-invalid"]')
+2019-01-10 14:36:12,280-INFO-my_log.py-Monica-日志信息:登录页面_登录功能输入元素：('xpath', '//input[@class="password form-control ng-untouched ng-pristine ng-invalid"]')
+2019-01-10 14:36:12,285-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//input[@class="password form-control ng-untouched ng-pristine ng-invalid"]')
+2019-01-10 14:36:12,350-INFO-my_log.py-Monica-日志信息:登录页面_登录功能点击元素：('xpath', '//footer[@class="page-footer"]')
+2019-01-10 14:36:12,354-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//footer[@class="page-footer"]')
+2019-01-10 14:36:12,429-INFO-my_log.py-Monica-日志信息:登录页面_登录功能点击元素：('xpath', '//button[@class="btn btn-auth btn-block"]')
+2019-01-10 14:36:12,434-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//button[@class="btn btn-auth btn-block"]')
+2019-01-10 14:36:12,502-INFO-my_log.py-Monica-日志信息:——————————当前执行的用例是：livemap页面_搜索功能_成功在搜索框搜索——————————
+2019-01-10 14:36:12,506-INFO-my_log.py-Monica-日志信息:LiveMap页面_搜索车辆功能_输入框搜索等待元素('xpath', '//input[@class="ng-untouched ng-pristine ng-valid"]')可见
+2019-01-10 14:36:16,739-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：226622
+2019-01-10 14:36:17,244-INFO-my_log.py-Monica-日志信息:LiveMap页面_搜索车辆功能_输入框搜索输入元素：('xpath', '//input[@class="ng-untouched ng-pristine ng-valid"]')
+2019-01-10 14:36:17,253-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//input[@class="ng-untouched ng-pristine ng-valid"]')
+2019-01-10 14:36:17,381-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_获取查询结果列表等待元素('xpath', '//div[@class="alias text-overflow font-weight-bold"]')可见
+2019-01-10 14:36:17,434-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：48970
+2019-01-10 14:36:17,938-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_获取查询结果列表查找元素：('xpath', '//div[@class="alias text-overflow font-weight-bold"]')
+2019-01-10 14:36:18,006-INFO-my_log.py-Monica-日志信息:LiveMap页面_搜索车辆功能_清空搜索框内容等待元素('xpath', '//input[@class="ng-untouched ng-pristine ng-valid"]')可见
+2019-01-10 14:36:48,455-ERROR-my_log.py-Monica-日志信息:等待元素可见失败！！！
+Traceback (most recent call last):
+  File "I:\lesson_practice\web_selenium\Cloudhawk_UI_Testing\Common\basepage.py", line 39, in wait_eleVisible
+    WebDriverWait(self.driver, times, poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "c:\users\monica711\appdata\local\programs\python\python35-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-01-10 14:36:48,994-INFO-my_log.py-Monica-日志信息:截取网页成功，文件路径为：I:\lesson_practice\web_selenium\Cloudhawk_UI_Testing\TestResult\image\LiveMap页面_搜索车辆功能_清空搜索框内容_2019-01-10_14_36_48.png
+2019-01-10 14:36:48,994-INFO-my_log.py-Monica-日志信息:清空输入框内的数据
+2019-01-10 14:36:49,010-ERROR-my_log.py-Monica-日志信息:清空失败！！！
+Traceback (most recent call last):
+  File "I:\lesson_practice\web_selenium\Cloudhawk_UI_Testing\Common\basepage.py", line 103, in clear_content
+    self.driver.find_element(*locator).clear()
+  File "c:\users\monica711\appdata\local\programs\python\python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 955, in find_element
+    'value': value})['value']
+  File "c:\users\monica711\appdata\local\programs\python\python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "c:\users\monica711\appdata\local\programs\python\python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="ng-untouched ng-pristine ng-valid"]"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=70.0.3538.97 (d035916fe243477005bc95fe2a5778b8f20b6ae1),platform=Windows NT 10.0.17134 x86_64)
+
+2019-01-10 14:36:49,513-INFO-my_log.py-Monica-日志信息:截取网页成功，文件路径为：I:\lesson_practice\web_selenium\Cloudhawk_UI_Testing\TestResult\image\LiveMap页面_搜索车辆功能_清空搜索框内容_2019-01-10_14_36_49.png
+2019-01-10 14:36:49,638-INFO-my_log.py-Monica-日志信息:==========所有测试用例之后的，teardwonclass==用例类后置：关闭浏览器==========

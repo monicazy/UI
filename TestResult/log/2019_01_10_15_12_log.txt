@@ -1,0 +1,77 @@
+2019-01-10 15:12:24,816-INFO-my_log.py-Monica-日志信息:==========所有测试用例之前的，seupclass==用例类前置：初始化浏览器，打开登录页==========
+2019-01-10 15:12:40,366-INFO-my_log.py-Monica-日志信息:登录页面_登录功能等待元素('xpath', '//input[@class="username form-control ng-untouched ng-pristine ng-invalid"]')可见
+2019-01-10 15:12:40,407-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：35759
+2019-01-10 15:12:40,908-INFO-my_log.py-Monica-日志信息:登录页面_登录功能输入元素：('xpath', '//input[@class="username form-control ng-untouched ng-pristine ng-invalid"]')
+2019-01-10 15:12:40,914-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//input[@class="username form-control ng-untouched ng-pristine ng-invalid"]')
+2019-01-10 15:12:41,107-INFO-my_log.py-Monica-日志信息:登录页面_登录功能输入元素：('xpath', '//input[@class="password form-control ng-untouched ng-pristine ng-invalid"]')
+2019-01-10 15:12:41,112-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//input[@class="password form-control ng-untouched ng-pristine ng-invalid"]')
+2019-01-10 15:12:41,177-INFO-my_log.py-Monica-日志信息:登录页面_登录功能点击元素：('xpath', '//footer[@class="page-footer"]')
+2019-01-10 15:12:41,182-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//footer[@class="page-footer"]')
+2019-01-10 15:12:41,247-INFO-my_log.py-Monica-日志信息:登录页面_登录功能点击元素：('xpath', '//button[@class="btn btn-auth btn-block"]')
+2019-01-10 15:12:41,252-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//button[@class="btn btn-auth btn-block"]')
+2019-01-10 15:12:41,335-INFO-my_log.py-Monica-日志信息:LiveMap页面_展开标签列表_标签按钮等待元素('xpath', '//i[@class="iconfont icon-list"]')可见
+2019-01-10 15:12:44,500-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：161516
+2019-01-10 15:12:45,010-INFO-my_log.py-Monica-日志信息:LiveMap页面_展开标签列表_标签按钮点击元素：('xpath', '//i[@class="iconfont icon-list"]')
+2019-01-10 15:12:45,015-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//i[@class="iconfont icon-list"]')
+2019-01-10 15:12:45,125-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_标签筛选等待元素('xpath', '//li[@class="label-item"]')可见
+2019-01-10 15:12:45,196-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：64958
+2019-01-10 15:12:45,701-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_标签筛选查找元素：('xpath', '//li[@class="label-item"]')
+2019-01-10 15:12:45,783-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_查询的标签是否存在于查询输入框下方等待元素('xpath', '//span[@class="label-name"]')可见
+2019-01-10 15:12:45,840-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：50968
+2019-01-10 15:12:46,352-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_查询的标签是否存在于查询输入框下方等待元素('xpath', '//span[@class="label-name"]')存在
+2019-01-10 15:12:46,368-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_关闭查询输入框下方的标签搜索等待元素('xpath', '//span[@class="iconfont icon-close label-close"]')可见
+2019-01-10 15:12:46,443-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：59762
+2019-01-10 15:12:46,944-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_关闭查询输入框下方的标签搜索点击元素：('xpath', '//span[@class="iconfont icon-close label-close"]')
+2019-01-10 15:12:46,953-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//span[@class="iconfont icon-close label-close"]')
+2019-01-10 15:12:47,056-INFO-my_log.py-Monica-日志信息:——————————当前执行的用例是：livemap页面_搜索功能_成功在搜索框搜索——————————
+2019-01-10 15:12:47,062-INFO-my_log.py-Monica-日志信息:LiveMap页面_搜索车辆功能_输入框搜索等待元素('xpath', '//input[@class="ng-untouched ng-pristine ng-valid"]')可见
+2019-01-10 15:12:47,098-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：30979
+2019-01-10 15:12:47,612-INFO-my_log.py-Monica-日志信息:LiveMap页面_搜索车辆功能_输入框搜索输入元素：('xpath', '//input[@class="ng-untouched ng-pristine ng-valid"]')
+2019-01-10 15:12:47,612-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//input[@class="ng-untouched ng-pristine ng-valid"]')
+2019-01-10 15:12:47,771-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_获取查询结果列表等待元素('xpath', '//div[@class="alias text-overflow font-weight-bold"]')可见
+2019-01-10 15:12:47,807-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：31079
+2019-01-10 15:12:48,310-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_获取查询结果列表查找元素：('xpath', '//div[@class="alias text-overflow font-weight-bold"]')
+2019-01-10 15:12:48,357-INFO-my_log.py-Monica-日志信息:LiveMap页面_搜索车辆功能_清空搜索框内容等待元素('xpath', '//input[@class="ng-valid ng-dirty ng-touched"]')可见
+2019-01-10 15:13:15,981-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：623609
+2019-01-10 15:13:16,487-INFO-my_log.py-Monica-日志信息:清空输入框内的数据
+2019-01-10 15:13:16,994-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//input[@class="ng-valid ng-dirty ng-touched"]')
+2019-01-10 15:13:17,068-INFO-my_log.py-Monica-日志信息:——————————当前执行的用例是：随机点击终端出现地图弹出框——————————
+2019-01-10 15:13:17,075-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_点击车辆等待元素('xpath', '//div[@class="alias text-overflow font-weight-bold"]')可见
+2019-01-10 15:13:17,121-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：40974
+2019-01-10 15:13:17,628-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_点击车辆查找元素：('xpath', '//div[@class="alias text-overflow font-weight-bold"]')
+2019-01-10 15:13:17,739-INFO-my_log.py-Monica-日志信息:LiveMap页面_吹出框中的电量图标等待元素('xpath', '//div[@class="tracker-status"]')存在
+2019-01-10 15:13:18,431-INFO-my_log.py-Monica-日志信息:——————————当前执行的用例是：成功点击info table按钮——————————
+2019-01-10 15:13:18,436-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_点击info_table按钮等待元素('xpath', '//button[@class="add-device"]')可见
+2019-01-10 15:13:18,573-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：129921
+2019-01-10 15:13:19,082-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_点击info_table按钮点击元素：('xpath', '//button[@class="add-device"]')
+2019-01-10 15:13:19,091-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//button[@class="add-device"]')
+2019-01-10 15:13:19,221-INFO-my_log.py-Monica-日志信息:LiveMap页面_搜索功能_info_table报表中的Alerts一栏是否存在等待元素('xpath', '//th[text()="Alerts"]')存在
+2019-01-10 15:13:49,611-ERROR-my_log.py-Monica-日志信息:等待元素存在失败！！！
+Traceback (most recent call last):
+  File "I:\lesson_practice\web_selenium\Cloudhawk_UI_Testing\Common\basepage.py", line 56, in wait_elePresence
+    WebDriverWait(self.driver, times, poll_frequency).until(EC.presence_of_element_located(locator))
+  File "c:\users\monica711\appdata\local\programs\python\python35-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-01-10 15:13:50,236-INFO-my_log.py-Monica-日志信息:截取网页成功，文件路径为：I:\lesson_practice\web_selenium\Cloudhawk_UI_Testing\TestResult\image\LiveMap页面_搜索功能_info_table报表中的Alerts一栏是否存在_2019-01-10_15_13_49.png
+2019-01-10 15:13:50,331-INFO-my_log.py-Monica-日志信息:——————————当前执行的用例是：关闭infotable报表——————————
+2019-01-10 15:13:50,331-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_点击info_table按钮等待元素('xpath', '//button[@class="add-device"]')可见
+2019-01-10 15:13:50,362-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：31247
+2019-01-10 15:13:50,883-INFO-my_log.py-Monica-日志信息:LiveMap页面_trackerlist_点击info_table按钮点击元素：('xpath', '//button[@class="add-device"]')
+2019-01-10 15:13:50,883-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//button[@class="add-device"]')
+2019-01-10 15:13:51,072-INFO-my_log.py-Monica-日志信息:LiveMap页面_关闭info_table报表等待元素('xpath', '//i[@class="iconfont icon-close"]')可见
+2019-01-10 15:13:51,638-INFO-my_log.py-Monica-日志信息:元素等待结束，等待时间为：557075
+2019-01-10 15:13:52,149-INFO-my_log.py-Monica-日志信息:LiveMap页面_关闭info_table报表点击元素：('xpath', '//i[@class="iconfont icon-close"]')
+2019-01-10 15:13:52,149-INFO-my_log.py-Monica-日志信息:查找元素：('xpath', '//i[@class="iconfont icon-close"]')
+2019-01-10 15:13:52,215-INFO-my_log.py-Monica-日志信息:LiveMap页面_infotable报表_alerts字样是否可见等待元素('xpath', '//th[text()="Alerts"]')可见
+2019-01-10 15:14:22,676-ERROR-my_log.py-Monica-日志信息:等待元素可见失败！！！
+Traceback (most recent call last):
+  File "I:\lesson_practice\web_selenium\Cloudhawk_UI_Testing\Common\basepage.py", line 39, in wait_eleVisible
+    WebDriverWait(self.driver, times, poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "c:\users\monica711\appdata\local\programs\python\python35-32\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-01-10 15:14:23,282-INFO-my_log.py-Monica-日志信息:截取网页成功，文件路径为：I:\lesson_practice\web_selenium\Cloudhawk_UI_Testing\TestResult\image\LiveMap页面_infotable报表_alerts字样是否可见_2019-01-10_15_14_22.png
+2019-01-10 15:14:23,288-INFO-my_log.py-Monica-日志信息:==========所有测试用例之后的，teardwonclass==用例类后置：关闭浏览器==========
