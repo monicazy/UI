@@ -45,6 +45,7 @@ class TestLogin:
 # 忘记密码入口
 @pytest.mark.usefixtures("login_web")
 @pytest.mark.usefixtures("refresh_page")
+@pytest.mark.smoke
 def test_forgetpasswd_enter(login_web):
     MyLog().my_log("INFO", "——————————当前执行的用例是：忘记密码入口——————————")
     # 调用函数,点击忘记密码按钮
