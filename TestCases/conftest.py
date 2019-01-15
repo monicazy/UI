@@ -20,7 +20,7 @@ def login_web():
     MyLog().my_log("INFO", "==========所有测试用例之前的，seupclass==用例类前置：初始化浏览器，打开登录页==========")
     global driver
     # 前置条件
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(r"C:\Users\monica711\AppData\Local\Google\Chrome\Application\chromedriver.exe")
     driver.get(CD.web_login_url)
     driver.maximize_window()
     lg = Login_page(driver)
@@ -44,7 +44,7 @@ def livemap_web():
     MyLog().my_log("INFO", "==========所有测试用例之前的，seupclass==用例类前置：初始化浏览器，打开登录页==========")
     global driver
     # 前置条件
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(r"C:\Users\monica711\AppData\Local\Google\Chrome\Application\chromedriver.exe")
     driver.get(CD.web_login_url)
     driver.maximize_window()
     lg = Login_page(driver)

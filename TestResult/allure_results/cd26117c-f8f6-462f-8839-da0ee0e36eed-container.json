@@ -1,1 +1,0 @@
-{"befores": [{"name": "refresh_page", "status": "passed", "start": 1547100727858, "stop": 1547100727858}], "afters": [{"name": "refresh_page::teardown", "status": "passed", "start": 1547100729432, "stop": 1547100730671}], "stop": 1547100730671, "start": 1547100727858, "uuid": "d21fc378-4dfe-4c8b-b788-61a90bf85205", "children": ["782d1313-15f4-47c6-9ae5-a6d1ed8753ff"]}
